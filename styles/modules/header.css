@@ -4,6 +4,14 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.modulename {
+	padding: 20px;
+	text-align: center;
+}
+.sampleimg {
+	margin-bottom: 50px;
+	border: 1px solid red;
+}
 body {
 	font-family: sans-serif;
 	margin: 0;
