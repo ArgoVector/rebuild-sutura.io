@@ -40,7 +40,7 @@ ul {
 li {
 	display:inline;
 }
-a:link,a:visited {
+.header-nav a:link,a:visited {
 	font-weight:thin;
 	color:#CC3DD;
 	text-align:center;

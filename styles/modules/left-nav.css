@@ -6,8 +6,8 @@ html {
 }
 body {
 	position: fixed;
-	width: 200px;
-	height: 250px;
+	width: 600px;
+	height: 100%;
 	border: 1px solid red;
 	font-family: sans-serif;
 }
@@ -36,6 +36,7 @@ li {
 }
 .leftnav li {
 	margin-bottom: 10px;
+	font-weight: bold;
 }
 .leftnav {
 	margin-left: -30px;
