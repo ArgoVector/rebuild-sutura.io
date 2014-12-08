@@ -4,6 +4,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+	position: fixed;
+	width: 200px;
+	height: 250px;
+	border: 1px solid red;
+	font-family: sans-serif;
+}
 .modulename {
 	padding: 20px;
 	text-align: center;
@@ -11,4 +18,25 @@ html {
 .sampleimg {
 	margin-bottom: 50px;
 	border: 1px solid red;
+}
+li {
+	list-style: none;
+}
+.button {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;	background-color: #2cacf5;
+	padding: 10px 45px 10px 40px;
+	color: white;
+}
+.leftnav li a {
+	padding: 5px;
+	text-decoration: none;
+	color: #59696b;
+}
+.leftnav li {
+	margin-bottom: 10px;
+}
+.leftnav {
+	margin-left: -30px;
 }
