@@ -4,3 +4,26 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+	font-family: sans-serif;
+}
+.modulename {
+	padding: 20px;
+	text-align: center;
+}
+.sampleimg {
+	margin-bottom: 50px;
+	border: 1px solid red;
+}
+.date {
+	color: #59696b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+span {
+		text-transform: capitalize;
+		font-weight: normal;
+		font-size: .8em;
+		padding: 10px;
+		color: #bac4d8;
+	}
