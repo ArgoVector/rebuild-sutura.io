@@ -19,15 +19,29 @@ body {
 	margin-bottom: 50px;
 	border: 1px solid red;
 }
+.fullnav {
+	padding-top: 30px;
+	border: 1px solid red;
+	width: 225px;
+	text-transform: uppercase;
+}
 li {
 	list-style: none;
 }
 .button {
-	text-transform: uppercase;
+	margin-left: 25px;
+	border: 1px solid red;
 	font-weight: bold;
-	text-decoration: none;	background-color: #2cacf5;
-	padding: 10px 45px 10px 40px;
+	text-decoration: none;
+	background-color: #2cacf5;
+	padding: 10px 50px 10px 50px;
 	color: white;
+}
+.button i {
+	letter-spacing: .5em;
+}
+ul {
+	margin-top: 35px;
 }
 .leftnav li a {
 	padding: 5px;
@@ -35,9 +49,17 @@ li {
 	color: #59696b;
 }
 .leftnav li {
-	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 17px;
 	font-weight: bold;
 }
 .leftnav {
 	margin-left: -30px;
+}
+.leftnav i {
+	letter-spacing: .8em;
+	padding-left: 10px;
+}
+.leftnav a:hover {
+	color: #2cacf5;
 }

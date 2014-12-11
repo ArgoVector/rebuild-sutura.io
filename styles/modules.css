@@ -50,6 +50,9 @@ a:link,a:visited {
 	float: right;
 	margin-right: 400px;
 }
+.search a:hover,a:active {
+	background-color:rgba(255,255,255,0.1);
+}
 .modulename {
 	padding: 20px;
 	text-align: center;
@@ -59,14 +62,15 @@ a:link,a:visited {
 	border: 1px solid red;
 }
 .button {
+	margin-left: 30px;
+	padding: 20px;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;	background-color: #2cacf5;
-	padding: 10px 45px 10px 40px;
 	color: white;
 }
 .leftnav li a {
-	padding: 5px;
+	padding: 20px;
 	text-decoration: none;
 	color: #59696b;
 }
@@ -75,5 +79,23 @@ a:link,a:visited {
 	font-weight: bold;
 }
 .leftnav {
+	border: 1px solid red;
 	margin-left: -30px;
 }
+.fullnav {
+	height: 400px;
+	width: 225px;
+	float: left;
+}
+.date {
+	color: #59696b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.date span {
+		text-transform: capitalize;
+		font-weight: normal;
+		font-size: .8em;
+		padding: 10px;
+		color: #bac4d8;
+	}
