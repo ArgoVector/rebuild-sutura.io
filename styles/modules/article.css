@@ -18,6 +18,9 @@ html {
 	height: 150px;
 	border: 1px solid red;
 }
+.article:hover {
+	background-color: #f2f2f2;
+}
 .article h2 {
 	margin-bottom: -7px;
 	padding-top: 25px;
@@ -46,8 +49,14 @@ html {
 	width: 35px;
 	border-radius: 1000px;
 }
-.op {
-}
 .voting i {
 	margin-bottom: -10px;
+}
+.op img{
+	border: 1px solid red;
+	width: 40px;
+	position: relative;
+	float: left;
+}
+.comment {
 }
