@@ -36,7 +36,7 @@ ul {
 }
 a:link,a:visited {
 	font-weight:thin;
-	color:#CC3DD;
+	color: #CC3DD;
 	text-align:center;
 	padding:20px 15px 20px 15px;
 	text-decoration:none;
@@ -88,7 +88,6 @@ ul {
 	font-weight: bold;
 }
 .leftnav {
-	border: 1px solid red;
 	margin-left: -30px;
 }
 .leftnav i {
@@ -99,11 +98,19 @@ ul {
 	color: #2cacf5;
 }
 .fullnav {
+	padding-top: 60px;
+	margin-top: 4px;
+	margin-left: 380px;
+	border-right: 4px solid #f2f2f2;
 	text-transform: uppercase;
-	height: 400px;
+	height: 100%;
 	width: 225px;
+	float: left;
+	position: fixed;
 }
 .date {
+	margin-top: 70px;
+	margin-left: 620px;
 	color: #59696b;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -116,6 +123,7 @@ ul {
 		color: #bac4d8;
 }
 .article {
+	margin-left: 610px;
 	width: 915px;
 	height: 150px;
 	border: 1px solid red;
@@ -130,7 +138,7 @@ ul {
 }
 .article-img {
 	float: left;
-	margin-left: 38px;
+	margin-left: 18px;
 	width: 180px;
 	margin-right: 30px;
 	margin-top: 30px;
@@ -145,7 +153,7 @@ ul {
 .votes {
 	font-weight: bold;
 	margin-left: 23px;
-	margin-top: 50px;
+	margin-top: 45px;
 	float: left;
 }
 .avatar {
@@ -154,10 +162,13 @@ ul {
 	border-radius: 1000px;
 }
 .voting i {
-	margin-bottom: -10px;
+	margin-left: -10px;
 }
-.userinfo {
-	border: 1px solid red;
-	width: 120px;
-	position: absolute;
+.article i {
+	color: #59696b;
+}
+.extra {
+	position: relative;
+	left: 785px;
+	bottom: 70px;
 }
