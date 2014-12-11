@@ -61,28 +61,44 @@ a:link,a:visited {
 	margin-bottom: 50px;
 	border: 1px solid red;
 }
+li {
+	list-style: none;
+}
 .button {
-	margin-left: 30px;
-	padding: 20px;
-	text-transform: uppercase;
+	margin-left: 25px;
 	font-weight: bold;
-	text-decoration: none;	background-color: #2cacf5;
+	text-decoration: none;
+	background-color: #2cacf5;
 	color: white;
 }
+.button i {
+	letter-spacing: .5em;
+}
+ul {
+	margin-top: 35px;
+}
 .leftnav li a {
-	padding: 20px;
+	padding: 5px;
 	text-decoration: none;
 	color: #59696b;
 }
 .leftnav li {
-	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-bottom: 17px;
 	font-weight: bold;
 }
 .leftnav {
-	border: 1px solid red;
 	margin-left: -30px;
 }
+.leftnav i {
+	letter-spacing: .8em;
+	padding-left: 10px;
+}
+.leftnav a:hover {
+	color: #2cacf5;
+}
 .fullnav {
+	text-transform: uppercase;
 	height: 400px;
 	width: 225px;
 	float: left;
