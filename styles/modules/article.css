@@ -41,22 +41,24 @@ html {
 	color: #9296b2;
 } 
 .votes {
+	font-weight: bold;
 	margin-left: 23px;
 	margin-top: 50px;
 	float: left;
 }
 .avatar {
+	margin-right: 25px;
 	width: 35px;
 	border-radius: 1000px;
 }
 .voting i {
 	margin-bottom: -10px;
 }
-.op img{
+.userinfo {
 	border: 1px solid red;
-	width: 40px;
-	position: relative;
+	width: 120px;
 	float: left;
-}
-.comment {
+	position: relative;
+	top: -90;
+	left: 790;
 }
