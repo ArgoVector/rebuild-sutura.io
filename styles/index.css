@@ -9,7 +9,6 @@ body {
 	margin: 0;
 	height: 60px;
 	width: 100%;
-	background-color: gray;
 }
 .logo {
 	margin-left: 401px;
@@ -29,7 +28,10 @@ body {
 ul {
 	list-style-type:none;
 }
-li {
+.header-nav li {
+	display:inline;
+}
+.search li {
 	display:inline;
 }
 a:link,a:visited {
@@ -40,11 +42,122 @@ a:link,a:visited {
 	text-decoration:none;
 	color: white;
 }
-a:hover,a:active {
+.header-nav a:hover,a:active {
 	background-color:rgba(255,255,255,0.1);
 }
 .search {
 	margin-top: -34px;
 	float: right;
 	margin-right: 400px;
+}
+.search a:hover,a:active {
+	background-color:rgba(255,255,255,0.1);
+}
+.modulename {
+	padding: 20px;
+	text-align: center;
+}
+.sampleimg {
+	margin-bottom: 50px;
+	border: 1px solid red;
+}
+li {
+	list-style: none;
+}
+.button {
+	margin-left: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #2cacf5;
+	color: white;
+}
+.button i {
+	letter-spacing: .5em;
+}
+ul {
+	margin-top: 35px;
+}
+.leftnav li a {
+	padding: 5px;
+	text-decoration: none;
+	color: #59696b;
+}
+.leftnav li {
+	margin-left: 10px;
+	margin-bottom: 17px;
+	font-weight: bold;
+}
+.leftnav {
+	border: 1px solid red;
+	margin-left: -30px;
+}
+.leftnav i {
+	letter-spacing: .8em;
+	padding-left: 10px;
+}
+.leftnav a:hover {
+	color: #2cacf5;
+}
+.fullnav {
+	text-transform: uppercase;
+	height: 400px;
+	width: 225px;
+}
+.date {
+	color: #59696b;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.date span {
+		text-transform: capitalize;
+		font-weight: normal;
+		font-size: .8em;
+		padding: 10px;
+		color: #bac4d8;
+}
+.article {
+	width: 915px;
+	height: 150px;
+	border: 1px solid red;
+}
+.article:hover {
+	background-color: #f2f2f2;
+}
+.article h2 {
+	margin-bottom: -7px;
+	padding-top: 25px;
+	font-size: 1.2em;
+}
+.article-img {
+	float: left;
+	margin-left: 38px;
+	width: 180px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.summary {	
+	margin-left: 26px;
+	width: 730px;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #9296b2;
+} 
+.votes {
+	font-weight: bold;
+	margin-left: 23px;
+	margin-top: 50px;
+	float: left;
+}
+.avatar {
+	margin-right: 25px;
+	width: 35px;
+	border-radius: 1000px;
+}
+.voting i {
+	margin-bottom: -10px;
+}
+.userinfo {
+	border: 1px solid red;
+	width: 120px;
+	position: absolute;
 }

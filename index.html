@@ -3,13 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Futurism</title>
-		<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="styles/index.css">
+		<link rel="stylesheet" type="text/css" href="styles/modules.css">
+		<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">	
 	</head>
 	<body>
-		
-		<div id="header-module">
-			<header>
+		<header>
 			<img class="background" src="images/header-bg.jpg" alt="Header Background">
 			<img class="logo" src="images/futura-logo.png" alt="Futura Logo">
 			<nav>
@@ -25,35 +23,36 @@
 					<li><a href="#">Sign In</a></li>
 					<li><a href="#">Join</a></li>
 				</ul>		
-			</header>
+		</header>
+		<div class="fullnav">
+			<a class="button" href="#"><i class="fa fa-plus"></i>Submit</a>
+				<ul class="leftnav">
+					<li><a href="#"><i class="fa fa-line-chart"></i>Trending<i class="fa fa-chevron-right"></i></a></li>
+					<li><a href="#"><i class="fa fa-clock-o"></i>Latest</a></li>
+					<li><a href="#"><i class="fa fa-star"></i>Best Of</a></li>
+					<li><a href="#"><i class="fa fa-random"></i>Random</a></li>
+				</ul>
 		</div>
-		
-		<div id="css-module">
-			<a href="#"><i class="fa fa-plus"></i>Submit</a>
-			<ul>
-				<li><a href="#"><i class="fa fa-line-chart"></i>Trending<i class="fa fa-chevron-right"></i></a></li>
-				<li><a href="#"><i class="fa fa-clock-o"></i>Latest</a></li>
-				<li><a href="#"><i class="fa fa-star"></i>Best Of</a></li>
-				<li><a href="#"><i class="fa fa-random"></i>Random</a></li>
-			</ul>
+		<div class="date">
+			<p>Saturday<span class="time">December 6, 2014</span></p>
 		</div>
-
-		<div id="css-module">
-		<p>Saturday<span>December 6, 2014</span></p>
+		<div class="article">
+			<div class="votes">
+				<a class="voting" href="#"><i class="fa fa-chevron-up"></i></a>
+				<p>33</p>
+			</div>
+			<div class="articleimage">
+				<img class="article-img" src="images/article1-270x135.jpg" alt="Article Image">
+			</div>
+			<div class="summ"></div>
+				<h2 class="post-title">This Week in Technology</h2>
+				<p class="summary">Smart Textiles, 3D Printing Electronic Circuitry, The Fastest 2D Camera, and More!</p>
+			</div>
+			<div class="userinfo">
+				<img class="avatar" src="images/avatar.jpg">
+				<a class="comments" href="#"><i class="fa fa-comment-o"></i></a>
+				<span>1</span>
+			</div>
 		</div>
-
-		<div id="css-module">
-			<a class="voting" href="#"><i class="fa fa-chevron-up"></i></a>
-			<span>28</span>
-			<img class="article-img" src="images/article1-270x135.jpg" alt="Article Image">
-			<h2 class="post-title">This Week in Science, December 7th, 2014</h2>
-			<p class="summary">This week in Science: The Hottest Year on the Planet, A Vaccine for Lyme's Disease, Sprayable Solar Power Cells, and More!</p>
-			<img class="avatar" src="images/avatar.jpg">
-			<a class="comments" href="#"><i class="fa fa-comment-o"></i></a>
-			<span>1</span>
-		</div>
-
-
-
 	</body>
 </html>
