@@ -7,7 +7,6 @@ html {
 body {
 	font-family: sans-serif;
 	margin: 0;
-	height: 60px;
 	width: 100%;
 }
 .logo {
@@ -23,7 +22,7 @@ body {
 }
 .header-nav {
 	margin-top: -36px;
-	margin-left: 520px;
+	margin-left: 28%;
 }
 ul {
 	list-style-type:none;
@@ -48,7 +47,7 @@ a:link,a:visited {
 .search {
 	margin-top: -34px;
 	float: right;
-	margin-right: 400px;
+	margin-right: 22%;
 }
 .search a:hover,a:active {
 	background-color:rgba(255,255,255,0.1);
@@ -100,17 +99,18 @@ ul {
 .fullnav {
 	padding-top: 60px;
 	margin-top: 4px;
-	margin-left: 380px;
-	border-right: 4px solid #f2f2f2;
+	margin-left: 20%;
+	margin-right: auto;
+	border: 1px solid red;
+	border-right: 3px solid #f2f2f2;
 	text-transform: uppercase;
-	height: 100%;
-	width: 225px;
+	width: 14em;
 	float: left;
-	position: fixed;
 }
 .date {
 	margin-top: 70px;
-	margin-left: 620px;
+	margin-left: 32%;
+	padding-left: 10px;
 	color: #59696b;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -123,7 +123,7 @@ ul {
 		color: #bac4d8;
 }
 .article {
-	margin-left: 610px;
+	margin-left: 32%;
 	width: 915px;
 	height: 150px;
 	border: 1px solid red;
@@ -152,17 +152,17 @@ ul {
 } 
 .votes {
 	font-weight: bold;
-	margin-left: 23px;
-	margin-top: 45px;
+	margin-left: 25px;
+	margin-top: 35px;
 	float: left;
+}
+.votes i {
+	margin-left: -14px;
 }
 .avatar {
 	margin-right: 25px;
 	width: 35px;
 	border-radius: 1000px;
-}
-.voting i {
-	margin-left: -10px;
 }
 .article i {
 	color: #59696b;
