@@ -64,7 +64,6 @@ li {
 	list-style: none;
 }
 .button {
-	border: 1px solid red;
 	margin-left: 25px;
 	font-weight: bold;
 	text-decoration: none;
@@ -75,9 +74,6 @@ li {
 	letter-spacing: .5em;
 	padding-left: 20px;
 	padding-right: 10px;
-}
-.button a {
-	border: 1px solid red;
 }
 ul {
 	margin-top: 35px;
@@ -105,19 +101,18 @@ ul {
 .fullnav {
 	padding-top: 60px;
 	margin-top: 4px;
-	margin-left: 20.25%;
+	margin-left: 20.4%;
 	margin-right: auto;
 	border-right: 3px solid #f2f2f2;
 	text-transform: uppercase;
 	width: 14em;
 	float: left;
-	background-color: red;
 	height: 100%;
 }
 .date {
 	margin-top: 70px;
 	margin-left: 32%;
-	padding-left: 10px;
+	padding-left: 25px;
 	color: #59696b;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -130,6 +125,7 @@ ul {
 		color: #bac4d8;
 }
 .article {
+	margin-top: -17px;
 	margin-left: 32%;
 	width: 915px;
 	height: 150px;
@@ -178,6 +174,8 @@ ul {
 }
 .extra {
 	float: right;
-	left: 53%;
-	bottom: 48%;
+	position: relative;
+	margin-right: 10px;
+	margin-left: auto;
+	margin-top: -9%;
 }
