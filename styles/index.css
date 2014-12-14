@@ -10,7 +10,7 @@ body {
 	width: 100%;
 }
 .logo {
-	margin-left: 401px;
+	margin-left: 22%;
 	margin-top: 5px;
 	width: 141px;
 }
@@ -25,7 +25,7 @@ body {
 	margin-left: 28%;
 }
 ul {
-	list-style-type:none;
+	list-style-type: none;
 }
 .header-nav li {
 	display:inline;
@@ -64,6 +64,7 @@ li {
 	list-style: none;
 }
 .button {
+	border: 1px solid red;
 	margin-left: 25px;
 	font-weight: bold;
 	text-decoration: none;
@@ -72,6 +73,11 @@ li {
 }
 .button i {
 	letter-spacing: .5em;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.button a {
+	border: 1px solid red;
 }
 ul {
 	margin-top: 35px;
@@ -99,13 +105,14 @@ ul {
 .fullnav {
 	padding-top: 60px;
 	margin-top: 4px;
-	margin-left: 20%;
+	margin-left: 20.25%;
 	margin-right: auto;
-	border: 1px solid red;
 	border-right: 3px solid #f2f2f2;
 	text-transform: uppercase;
 	width: 14em;
 	float: left;
+	background-color: red;
+	height: 100%;
 }
 .date {
 	margin-top: 70px;
@@ -126,7 +133,8 @@ ul {
 	margin-left: 32%;
 	width: 915px;
 	height: 150px;
-	border: 1px solid red;
+	border-bottom: 1px solid #f2f2f2;
+	border-left: 3px solid #f2f2f2;
 }
 .article:hover {
 	background-color: #f2f2f2;
@@ -135,6 +143,7 @@ ul {
 	margin-bottom: -7px;
 	padding-top: 25px;
 	font-size: 1.2em;
+	max-width: 80%;
 }
 .article-img {
 	float: left;
@@ -143,7 +152,7 @@ ul {
 	margin-right: 30px;
 	margin-top: 30px;
 }
-.summary {	
+.summary {
 	margin-left: 26px;
 	width: 730px;
 	font-size: .9em;
@@ -168,7 +177,7 @@ ul {
 	color: #59696b;
 }
 .extra {
-	position: relative;
-	left: 785px;
-	bottom: 70px;
+	float: right;
+	left: 53%;
+	bottom: 48%;
 }
